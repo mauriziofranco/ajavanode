@@ -35,7 +35,7 @@ j for jdk, openjdk
 
 n for node, node & npm
 
-d for debian, with following packages: vim, tree, locate 
+d for debian, with following packages: vim, tree, locate, curl, zip
 
 # sources
 Github:
@@ -51,11 +51,17 @@ docker engine
 
 ## development
 git clone https://github.com/mauriziofranco/ajavanode
-vim Dockerfile
-docker image build --tag mauriziofranco/ajavanode:x.y.z .
-docker container run -it mauriziofranco/ajavanode:x.y.z
-cat /etc/os-release
-java -version
-node -v
-npm -v
 
+vim Dockerfile
+
+docker image build . --tag mauriziofranco/ajavanode:x.y.z
+
+docker container run -it mauriziofranco/ajavanode:x.y.z
+
+cat /etc/os-release
+
+java -version
+
+node -v
+
+npm -v
