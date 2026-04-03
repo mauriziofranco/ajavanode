@@ -1,7 +1,7 @@
 FROM debian:trixie-slim
 
 RUN apt-get update 
-RUN apt-get install -y  vim tree curl locate
+RUN apt-get install -y  vim tree curl locate zip
 RUN apt-get install -y  openjdk-21-jdk
 RUN apt-get install -y  nodejs npm
 
