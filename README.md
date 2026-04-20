@@ -47,6 +47,7 @@ Apache License v.2.0:
 
 ## requirements for development
 git client
+
 docker engine
 
 ## development
@@ -65,3 +66,21 @@ java -version
 node -v
 
 npm -v
+=======
+vim Dockerfile
+
+docker image build --tag mauriziofranco/ajavanode:x.y.z .
+
+docker container run -it mauriziofranco/ajavanode:x.y.z
+
+cat /etc/os-release
+
+java -version
+
+node -v
+
+npm -v
+
+docker image tag mauriziofranco/ajavanode:x.y.z mauriziofranco/ajavanode:nx_jy_dz
+
+docker image push mauriziofranco/ajavanode:nx_jy_dz
