@@ -7,4 +7,3 @@ RUN apt-get install -y  nodejs npm
 
 ENV JAVA_HOME /usr/lib/jvm/java-YYY-openjdk-amd64
 RUN export JAVA_HOME
-
