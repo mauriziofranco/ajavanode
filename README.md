@@ -1,6 +1,6 @@
 # ajavanode
 
-<img src="icon.png" alt="logo" width="50%" height="50%"/>
+<img src="icon.png" alt="logo" width="25%" height="25%"/>
 
 ajavanode is a base docker image with a pre-configuration based on Linux, JDK and Node
 
