@@ -1,5 +1,7 @@
 # ajavanode
 
+<img src="icon.png" alt="logo" width="50%" height="50%"/>
+
 ajavanode is a base docker image with a pre-configuration based on Linux, JDK and Node
 
 A cloud pipeline that have to build a jdk and node engines application based to.
