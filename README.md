@@ -58,4 +58,5 @@ cat /etc/os-release
 java -version
 node -v
 npm -v
-
+docker image tag mauriziofranco/ajavanode:x.y.z mauriziofranco/ajavanode:nx_jy_dz
+docker image push mauriziofranco/ajavanode:nx_jy_dz
